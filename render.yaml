@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: tuanzi-garden
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: SUPABASE_URL
+        value: https://tbgbyrcpdurqalununho.supabase.co
+      - key: SUPABASE_KEY
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false

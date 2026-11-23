@@ -1,0 +1,12 @@
+{
+  "name": "tuanzi-secret-garden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "团子的秘密花园 - 商品选款网站",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

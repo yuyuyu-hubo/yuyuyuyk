@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>团子的秘密花园 · 顾客端</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- 顶部栏 -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <img src="assets/logo.svg" class="brand-logo" alt="团子的秘密花园" />
+        <div class="brand-text">
+          <h1>团子的秘密花园</h1>
+          <p>挑你喜欢的款式</p>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <input id="searchInput" type="text" placeholder="搜索款式 / 货号…" autocomplete="off" />
+        <button id="searchClear" class="search-clear" title="清除">×</button>
+      </div>
+
+      <div class="topbar-actions">
+        <button id="toggleSelection" class="btn btn-ghost">
+          <span>已选款式</span>
+          <span id="selCount" class="badge">0</span>
+        </button>
+        <a href="merchant.html" class="btn btn-sister"><span class="heart">♥</span> 姐姐入口</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 分类导航 -->
+  <nav class="cats">
+    <div class="cats-inner" id="catTabs">
+      <button class="cat-tab active" data-cat="">全部</button>
+    </div>
+  </nav>
+
+  <!-- 主内容 -->
+  <main class="layout">
+    <section class="catalog">
+      <div class="catalog-head">
+        <h2 id="catalogTitle">全部款式</h2>
+        <span id="catalogCount" class="muted"></span>
+      </div>
+      <div id="productGrid" class="grid"></div>
+      <div id="emptyState" class="empty" hidden>
+        <p>没有找到相关商品</p>
+      </div>
+    </section>
+
+    <!-- 已选款式抽屉 -->
+    <aside id="selectionPanel" class="drawer" hidden>
+      <div class="drawer-head">
+        <h2>已选款式 <span id="drawerCount" class="badge">0</span></h2>
+        <button id="closeSelection" class="icon-btn" title="关闭">×</button>
+      </div>
+      <div id="selectionList" class="selection-list"></div>
+      <div class="drawer-foot">
+        <button id="submitSelection" class="btn btn-primary">提交选款</button>
+        <button id="copySelection" class="btn btn-secondary">复制清单</button>
+        <button id="clearSelection" class="btn btn-ghost">清空</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- 商品详情画廊 -->
+  <div id="detailModal" class="detail-overlay" hidden>
+    <div class="detail-box">
+      <button id="detailClose" class="icon-btn detail-close" title="关闭">×</button>
+      <div class="detail-stage">
+        <button id="prevImg" class="nav-arrow" title="上一张">‹</button>
+        <img id="detailImg" alt="" />
+        <button id="nextImg" class="nav-arrow" title="下一张">›</button>
+      </div>
+      <div id="detailThumbs" class="detail-thumbs"></div>
+      <div class="detail-info">
+        <div id="detailName" class="detail-name"></div>
+        <div id="detailMeta" class="detail-meta muted"></div>
+      </div>
+      <button id="detailSelect" class="btn btn-primary btn-block">＋ 选这款</button>
+    </div>
+  </div>
+
+  <!-- 提交选款表单 -->
+  <div id="submitModal" class="detail-overlay" hidden>
+    <div class="submit-box">
+      <h3>提交选款</h3>
+      <p class="muted">填写联系方式，姐姐会在微信上收到你的选款清单</p>
+      <input id="subName" type="text" placeholder="你的称呼（如：小明）" autocomplete="off" />
+      <input id="subContact" type="text" placeholder="微信号 / 手机号" autocomplete="off" />
+      <textarea id="subRemark" rows="2" placeholder="备注（可选）"></textarea>
+      <button id="submitBtn" class="btn btn-primary btn-block">提交</button>
+      <button id="submitClose" class="btn btn-ghost btn-block">取消</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="js/customer.js"></script>
+</body>
+</html>

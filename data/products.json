@@ -1,0 +1,502 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "name": "短袜选款"
+    },
+    {
+      "id": "cat2",
+      "name": "小腿与过膝袜选款"
+    },
+    {
+      "id": "cat3",
+      "name": "高端品牌丝袜 120"
+    },
+    {
+      "id": "cat4",
+      "name": "丝袜选款"
+    },
+    {
+      "id": "cat5",
+      "name": "内内选款"
+    },
+    {
+      "id": "cat6",
+      "name": "内衣选款"
+    },
+    {
+      "id": "cat7",
+      "name": "船袜选款"
+    }
+  ],
+  "products": [
+    {
+      "id": "p001",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "20",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_01.jpg"
+      ]
+    },
+    {
+      "id": "p002",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_02.jpg"
+      ]
+    },
+    {
+      "id": "p003",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_03.jpg"
+      ]
+    },
+    {
+      "id": "p004",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_04.jpg"
+      ]
+    },
+    {
+      "id": "p005",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_05.jpg"
+      ]
+    },
+    {
+      "id": "p006",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_06.jpg"
+      ]
+    },
+    {
+      "id": "p007",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_07.jpg"
+      ]
+    },
+    {
+      "id": "p008",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_08.jpg"
+      ]
+    },
+    {
+      "id": "p009",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_09.jpg"
+      ]
+    },
+    {
+      "id": "p010",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_10.jpg"
+      ]
+    },
+    {
+      "id": "p011",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_11.jpg"
+      ]
+    },
+    {
+      "id": "p012",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_12.jpg"
+      ]
+    },
+    {
+      "id": "p013",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_13.jpg"
+      ]
+    },
+    {
+      "id": "p014",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_14.jpg"
+      ]
+    },
+    {
+      "id": "p015",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_15.jpg"
+      ]
+    },
+    {
+      "id": "p016",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_16.jpg"
+      ]
+    },
+    {
+      "id": "p017",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_17.jpg"
+      ]
+    },
+    {
+      "id": "p018",
+      "category": "cat1",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/duanwa_18.jpg"
+      ]
+    },
+    {
+      "id": "p019",
+      "category": "cat2",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/xiaotui_19.jpg"
+      ]
+    },
+    {
+      "id": "p020",
+      "category": "cat2",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/xiaotui_20.jpg"
+      ]
+    },
+    {
+      "id": "p021",
+      "category": "cat2",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/xiaotui_21.jpg"
+      ]
+    },
+    {
+      "id": "p022",
+      "category": "cat2",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/xiaotui_22.jpg"
+      ]
+    },
+    {
+      "id": "p023",
+      "category": "cat3",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/gaoduan_23.jpg"
+      ]
+    },
+    {
+      "id": "p024",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_24.jpg"
+      ]
+    },
+    {
+      "id": "p025",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_25.jpg"
+      ]
+    },
+    {
+      "id": "p026",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_26.jpg"
+      ]
+    },
+    {
+      "id": "p027",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_27.jpg"
+      ]
+    },
+    {
+      "id": "p028",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_28.jpg"
+      ]
+    },
+    {
+      "id": "p029",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_29.jpg"
+      ]
+    },
+    {
+      "id": "p030",
+      "category": "cat4",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/siwa_30.jpg"
+      ]
+    },
+    {
+      "id": "p031",
+      "category": "cat5",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neinei_31.jpg"
+      ]
+    },
+    {
+      "id": "p032",
+      "category": "cat5",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neinei_32.jpg"
+      ]
+    },
+    {
+      "id": "p033",
+      "category": "cat5",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neinei_33.jpg"
+      ]
+    },
+    {
+      "id": "p034",
+      "category": "cat5",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neinei_34.jpg"
+      ]
+    },
+    {
+      "id": "p035",
+      "category": "cat5",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neinei_35.jpg"
+      ]
+    },
+    {
+      "id": "p036",
+      "category": "cat6",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neiyi_36.jpg"
+      ]
+    },
+    {
+      "id": "p037",
+      "category": "cat6",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/neiyi_37.jpg"
+      ]
+    },
+    {
+      "id": "p038",
+      "category": "cat7",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/chuanwa_38.jpg"
+      ]
+    },
+    {
+      "id": "p039",
+      "category": "cat7",
+      "name": "",
+      "code": "",
+      "price": "",
+      "desc": "",
+      "createdAt": "2026-11-23T00:00:00.000Z",
+      "images": [
+        "assets/products/chuanwa_39.jpg"
+      ]
+    }
+  ]
+}

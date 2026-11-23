@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>团子的秘密花园 · 姐姐专区</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- 顶部栏 -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <img src="assets/logo.svg" class="brand-logo" alt="团子的秘密花园" />
+        <div class="brand-text">
+          <h1>团子的秘密花园</h1>
+          <p>姐姐专区 · 上传与管理商品</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button id="logoutBtn" class="btn btn-ghost">退出登录</button>
+        <a href="index.html" class="btn btn-ghost">← 返回顾客端</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="merchant-page">
+    <!-- 上传表单 -->
+    <section class="panel">
+      <h3>上传新商品</h3>
+      <div class="form-grid">
+        <label class="field">
+          <span>商品图片 *（可多选）</span>
+          <div class="img-pick-area" id="imgPickArea">
+            <div id="imgThumbs" class="img-thumbs"></div>
+            <div class="img-add" id="imgAdd">
+              <input id="fileInput" type="file" accept="image/*" multiple hidden />
+              <span>＋ 点击选择图片（可多选）</span>
+            </div>
+          </div>
+        </label>
+
+        <div class="form-cols">
+          <label class="field">
+            <span>商品名称</span>
+            <input id="fName" type="text" placeholder="例如：蕾丝短袜（可选）" />
+          </label>
+          <label class="field">
+            <span>分类</span>
+            <div class="cat-select-wrap">
+              <select id="fCategory"></select>
+            </div>
+          </label>
+          <label class="field">
+            <span>货号</span>
+            <input id="fCode" type="text" placeholder="例如：A-001" />
+          </label>
+          <label class="field">
+            <span>价格（元）</span>
+            <input id="fPrice" type="text" placeholder="例如：12.9" />
+          </label>
+        </div>
+
+        <label class="field">
+          <span>备注</span>
+          <textarea id="fDesc" rows="2" placeholder="颜色 / 尺码 / 其他说明（可选）"></textarea>
+        </label>
+      </div>
+      <button id="submitProduct" class="btn btn-primary btn-block">发布商品</button>
+      <p id="formMsg" class="form-msg"></p>
+    </section>
+
+    <!-- 分类管理 -->
+    <section class="panel">
+      <h3>分类管理</h3>
+      <div class="inline-add">
+        <input id="newCatName" type="text" placeholder="新分类名，例如：家居袜" />
+        <button id="addCatBtn" class="btn btn-primary">新增分类</button>
+      </div>
+      <div id="catList" class="cat-list"></div>
+    </section>
+
+    <!-- 商品管理列表 -->
+    <section class="panel">
+      <h3>已发布商品 <span id="manageCount" class="muted"></span></h3>
+      <div id="manageList" class="manage-list-body"></div>
+    </section>
+
+    <!-- 收到的选款 -->
+    <section class="panel">
+      <h3>收到的选款 <span id="subCount" class="muted"></span></h3>
+      <div id="subList" class="sub-list"></div>
+    </section>
+
+    <!-- 微信推送设置 -->
+    <section class="panel">
+      <h3>微信推送设置（Server酱）</h3>
+      <p class="muted">顾客提交选款后，会推送到你的微信。前往 sct.ftqq.com 注册并获取 SendKey。</p>
+      <div class="inline-add">
+        <input id="serverChanKey" type="text" placeholder="粘贴 SendKey，如 SCTxxxxxxx" />
+        <button id="saveConfigBtn" class="btn btn-primary">保存</button>
+      </div>
+      <p id="configMsg" class="form-msg"></p>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="js/merchant.js"></script>
+</body>
+</html>
